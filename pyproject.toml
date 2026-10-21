@@ -1,0 +1,10 @@
+[project]
+name = "accounting-impact-simulator"
+version = "0.1.0"
+description = "Educational IFRS accounting-estimate impact simulator (IAS 16 useful-life MVP)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+# Lets tests write `from simulator...` without installing the package.
+pythonpath = ["src"]
+testpaths = ["tests"]

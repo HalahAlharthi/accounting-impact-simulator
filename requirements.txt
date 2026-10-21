@@ -1,0 +1,7 @@
+# Calculation engine: Python standard library only (decimal, fractions, dataclasses).
+# Interface and presentation:
+streamlit>=1.37
+pandas>=2.0
+plotly>=5.18
+# Tests:
+pytest>=8.0
