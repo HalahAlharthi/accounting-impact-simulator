@@ -1,0 +1,35 @@
+{
+  "title": "Case B \u2014 same revision, change dated 1 Jul 2025",
+  "description": "Two rate segments: 4,500 (Jan\u2013Jun) + 6,500 (Jul\u2013Dec) = 11,000; closing carrying amount 62,000. Fictional data.",
+  "currency": "SAR",
+  "asset": {
+    "cost": "100000.00",
+    "residual_value": "10000.00",
+    "useful_life_months": 120,
+    "available_for_use_date": "2022-01-01",
+    "method": "straight_line"
+  },
+  "period": {
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  "revision": {
+    "effective_date": "2025-07-01",
+    "revised_useful_life_months": 96,
+    "revised_residual_value": null
+  },
+  "opening_accumulated_depreciation": "27000.00",
+  "financials": {
+    "revenue": "500000.00",
+    "other_operating_expenses": "400000.00",
+    "other_income": "0.00",
+    "finance_costs": "0.00",
+    "other_assets_closing": "436000.00",
+    "total_liabilities_closing": "200000.00",
+    "opening_equity": "209000.00"
+  },
+  "opening_position": {
+    "total_assets": "409000.00",
+    "total_liabilities": "200000.00"
+  }
+}
